@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url(/fonts/BebasNeue-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(/fonts/Poppins-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+body{
+  width: 1920px;
+  height: 1080px;
+  background: var(--text-and-main-white, #FAFAFA);
+  background-image: url(/img/hero@2x.jpg);
+  background-position: top 48px right -248px;
+  background-size: 1293px 1034px;
+  background-repeat: no-repeat;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+header{
+  width: 1920px;
+  height: 120px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+header img{
+  width: 171px;
+  height: 54px;
+  margin-top: 33px;
+}
+
+nav{
+  width: 497px;
+  height: 27px;
+  margin-top: 46px;
+  margin-right: 160px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-and-main-black, #424241);
+  padding: 0px;
+}
+
+ul{
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 56px;
+}
+
+li{
+  /* Text/Text 2 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.title{
+  width: 784px;
+  height: 428px;
+  flex-shrink: 0;
+  margin-top: 80px;
+}
+
+div.title h1{
+  width: 784px;
+  color: var(--text-and-main-gray, #7EDAD2);
+  margin: 0px;
+  /* Title/Heading 1 */
+  font-family: Bebas Neue;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px; /* 100% */
+}
+
+div.title h1 span{
+  color: var(--text-and-main-black, #424241);
+  /* Title/Heading 1 */
+  font-family: Bebas Neue;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px;
+}
+div.title p{
+  margin-top: 8px;
+  width: 719px;
+  color: var(--text-and-main-gray-2, #909090);
+
+  /* Text/Text 1 */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+}
+
+div.title button{
+  margin-top: 40px;
+  padding: 8px;
+  display: flex;
+  width: 180px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  background: var(--text-and-main-gray, #7EDAD2);
+  color: var(--text-and-main-white, #FAFAFA);
+  /* Text 2 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+div.total{
+  width: 491px;
+  height: 85px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 80px;
+  margin-top: 56px;
+}
+
+div.estadisticas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.estadisticas h2{
+  margin: 0px;
+  color: var(--text-and-main-black, #424241);
+
+  /* Title/Heading 2 */
+  font-family: Bebas Neue;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+div.estadisticas p{
+  margin: 0px;
+  color: var(--text-and-main-gray-2, #909090);
+
+  /* Text/Text 2 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+aside{
+  margin-top: 64px;
+  width: 1600px;
+  height: 234px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+article{
+  background: var(--text-and-main-white, #FAFAFA);
+  display: flex;
+  width: 376px;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+article img{
+  margin: 0px;
+  width: 64px;
+  height: 64px;
+}
+
+article h3{
+  margin: 0px;
+  color: var(--text-and-main-black, #424241);
+
+  /* Text Medium 1 */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+article p{
+  margin: 0px;
+  color: var(--text-and-main-gray-2, #909090);
+
+  /* Text 2 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
